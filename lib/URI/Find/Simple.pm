@@ -101,11 +101,18 @@ will be converted to the string 'http://jerakeen.org'.
 
 =head1 SEE ALSO
 
-L<URI::Find>, L<URI::Find::Iterator>, L<URI>
+L<URI::Find>, L<URI::Find::Iterator>, L<URI>.
 
 =head1 AUTHOR
 
-Copyright (c) 2004 Tom Insam <tom@jerakeen.org> inspired by Paul Mison <paul@husk.org>
+Tom Insam E<lt>tom@jerakeen.orgE<gt>
+inspired by Paul Mison E<lt>paul@husk.orgE<gt>
+
+This module is now maintained by Neil Bowers E<lt>neilb@cpan.orgE<gt>.
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (c) 2004 Tom Insam E<lt>tom@jerakeen.orgE<gt>.
 
 This program is free software; you can redistribute it
 and/or modify it under the same terms as Perl itself.

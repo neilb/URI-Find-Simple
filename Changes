@@ -1,6 +1,7 @@
 Revision history for Perl module URI::Find::Simple
 
 1.04
+    - Added license details to metadata and added LICENSE section to doc
     - Reformatted Changes as per CPAN::Changes::Spec
     - Specified min perl version as 5.6.0
     - Added missing PREREQ's, and moved Test::More to TEST_REQUIRES

@@ -18,6 +18,11 @@ WriteMakefile(
         'warnings'   => 0,
     },
 
+    ($mm_ver >= 6.31
+        ? (LICENSE => 'perl')
+        : ()
+    ),
+
     ($mm_ver >= 6.48
         ? (MIN_PERL_VERSION => 5.006)
         : ()
