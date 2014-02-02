@@ -1,5 +1,5 @@
 use ExtUtils::MakeMaker;
-require 5.008001;
+require 5.006;
 
 my $mm_ver = $ExtUtils::MakeMaker::VERSION;
 if ($mm_ver =~ /_/) { # dev version
@@ -17,6 +17,11 @@ WriteMakefile(
         'strict'     => 0,
         'warnings'   => 0,
     },
+
+    ($mm_ver >= 6.48
+        ? (MIN_PERL_VERSION => 5.006)
+        : ()
+    ),
 
     ($mm_ver >= 6.64
         ? (TEST_REQUIRES => {

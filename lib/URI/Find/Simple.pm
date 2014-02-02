@@ -1,6 +1,7 @@
 package URI::Find::Simple;
 use warnings;
 use strict;
+use 5.006;
 
 use URI::Find;
 use Carp qw(croak);

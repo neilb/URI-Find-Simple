@@ -2,6 +2,7 @@ Revision history for Perl module URI::Find::Simple
 
 1.04
     - Reformatted Changes as per CPAN::Changes::Spec
+    - Specified min perl version as 5.6.0
     - Added missing PREREQ's, and moved Test::More to TEST_REQUIRES
 
 1.03 2010-10-25
