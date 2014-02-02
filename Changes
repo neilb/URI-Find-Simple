@@ -1,18 +1,22 @@
-Revision history for URI::Title
+Revision history for Perl module URI::Find::Simple
 
-1.03 2010/10/25
-  - Package properly
+1.04
+    - Reformatted Changes as per CPAN::Changes::Spec
 
-1.01 2010/09/06
-  - Fix tests for URI::Find change
-  - Count tests properly
+1.03 2010-10-25
+    - Package properly
 
-1.01 2008/09/15
-  - Clearer license
-  - Better method of requiring perl 5.8.1
+1.01 2010-09-06
+    - Fix tests for URI::Find change
+    - Count tests properly
 
-1.0 2008/06/19
-  - Unicode support improved.
+1.01 2008-09-15
+    - Clearer license
+    - Better method of requiring perl 5.8.1
 
-0.7 2004/03/16 (Revision 643)
-  - Initial release  
+1.0 2008-06-19
+    - Unicode support improved.
+
+0.7 2004-03-16
+    - Initial release  
+
