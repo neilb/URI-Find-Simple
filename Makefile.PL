@@ -18,6 +18,21 @@ WriteMakefile(
         'warnings'   => 0,
     },
 
+    ($mm_ver <= 6.45
+        ? ()
+        : (META_MERGE => {
+            'meta-spec' => { version => 2 },
+            resources => {
+                bugtracker  => 'http://rt.cpan.org/Public/Dist/Display.html?Name=URI-Find-Simple',
+                repository  => {
+                    type => 'git',
+                    web  => 'https://github.com/neilbowers/URI-Find-Simple',
+                    url  => 'git://github.com/neilbowers/URI-Find-Simple.git',
+                },
+            },
+          })
+    ),
+
     ($mm_ver >= 6.31
         ? (LICENSE => 'perl')
         : ()

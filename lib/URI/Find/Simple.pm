@@ -11,7 +11,7 @@ use Encode qw( encode );
 our @ISA = qw( Exporter );
 our @EXPORT_OK = qw( list_uris change_uris );
 
-our $VERSION = 1.03;
+our $VERSION = 1.04;
 
 our $CHARSET = "utf-8";
 
@@ -102,6 +102,10 @@ will be converted to the string 'http://jerakeen.org'.
 =head1 SEE ALSO
 
 L<URI::Find>, L<URI::Find::Iterator>, L<URI>.
+
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/URI-Find-Simple>
 
 =head1 AUTHOR
 
