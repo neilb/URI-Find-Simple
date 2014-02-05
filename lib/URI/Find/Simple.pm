@@ -101,7 +101,7 @@ will be converted to the string 'http://jerakeen.org'.
 
 =head1 SEE ALSO
 
-L<URI::Find>, L<URI::Find::Iterator>, L<URI>.
+L<URI::Find>, L<URI::Find::Iterator>, L<URI>, L<HTML::LinkExtor>, L<HTML::LinkExtractor>.
 
 =head1 REPOSITORY
 

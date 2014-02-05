@@ -1,6 +1,7 @@
 Revision history for Perl module URI::Find::Simple
 
 1.05 2014-02-05
+    - Added SEE ALSO links to HTML::LinkExtractor and HTML::LinkExtor.
     - Hadn't added README to MANIFEST, so it wasn't in the dist. Sigh.
 
 1.04 2014-02-02
