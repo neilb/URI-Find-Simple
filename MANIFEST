@@ -1,5 +1,6 @@
 lib/URI/Find/Simple.pm
-MANIFEST			This list of files
+MANIFEST
 t/find.t
 Makefile.PL
 Changes
+README

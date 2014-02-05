@@ -1,5 +1,8 @@
 Revision history for Perl module URI::Find::Simple
 
+1.05 2014-02-05
+    - Hadn't added README to MANIFEST, so it wasn't in the dist. Sigh.
+
 1.04 2014-02-02
     - NEILB has taken over maintenance
     - Added github repo to metadata and pod
