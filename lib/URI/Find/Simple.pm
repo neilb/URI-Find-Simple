@@ -11,7 +11,7 @@ use Encode qw( encode );
 our @ISA = qw( Exporter );
 our @EXPORT_OK = qw( list_uris change_uris );
 
-our $VERSION = 1.05;
+our $VERSION = 1.06;
 
 our $CHARSET = "utf-8";
 

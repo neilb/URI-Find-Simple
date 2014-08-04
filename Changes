@@ -1,5 +1,9 @@
 Revision history for Perl module URI::Find::Simple
 
+1.06 2014-08-04
+    - URI-Find-20140709 stopped translating URIs to canonical form,
+      which broke our testsuite. Thanks to Petr Pisar for RT#97738
+
 1.05 2014-02-05
     - Added SEE ALSO links to HTML::LinkExtractor and HTML::LinkExtor.
     - Hadn't added README to MANIFEST, so it wasn't in the dist. Sigh.
