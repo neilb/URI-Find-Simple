@@ -1,5 +1,8 @@
 Revision history for Perl module URI::Find::Simple
 
+1.06 2021-03-14 NEILB
+    - Changed github repo URL to reflect my change in username
+
 1.06 2014-08-04 NEILB
     - URI-Find-20140709 stopped translating URIs to canonical form,
       which broke our testsuite. Thanks to Petr Pisar for RT#97738

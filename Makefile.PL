@@ -26,8 +26,8 @@ WriteMakefile(
                 bugtracker  => 'http://rt.cpan.org/Public/Dist/Display.html?Name=URI-Find-Simple',
                 repository  => {
                     type => 'git',
-                    web  => 'https://github.com/neilbowers/URI-Find-Simple',
-                    url  => 'git://github.com/neilbowers/URI-Find-Simple.git',
+                    web  => 'https://github.com/neilb/URI-Find-Simple',
+                    url  => 'git://github.com/neilb/URI-Find-Simple.git',
                 },
             },
           })
